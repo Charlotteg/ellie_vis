@@ -1,0 +1,29 @@
+<header class="header-6">
+  <div class="branding">
+      Ellie Graves
+  </div>
+  <div class="header-nav">
+      <div class="branding">
+        Immuno-Contraceptive Studies
+      </div>
+  </div>
+  <div class="header-actions">
+      <div class="filter">
+      Filter:
+      </div>
+      <form [formGroup]="filterForm">
+      <select id="selects_1"   formControlName="selectedObj">
+          <option>All</option>
+          <option>Overall individual contraception</option>
+          <option>Individual fertility</option>
+          <option>Population fertility</option>
+          <option>Antibody response</option>
+          <option>Antibody/hormone response</option>
+          <option>Other</option>
+      </select>
+      </form>
+      <a href="javascript://" class="nav-link nav-icon">
+          <clr-icon shape="cog"></clr-icon>
+      </a>
+  </div>
+</header>
