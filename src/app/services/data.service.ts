@@ -5,7 +5,6 @@ import { nest } from 'd3-collection';
 import { PapaParseService } from 'ngx-papaparse';
 
 import 'rxjs/add/operator/map';
-import * as _ from 'underscore';
 
 @Injectable()
 export class DataService {
